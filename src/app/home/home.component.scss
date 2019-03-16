@@ -1,0 +1,18 @@
+$grey: #2b2b2b;
+$squirtle: #a6d6d8;
+
+.login {
+  padding: 25px;
+  .mat-form-field {
+    width: 100%;
+    max-width: 350px;
+    .mat-input-element { line-height: 2; }
+    .mat-form-field-wrapper {
+      padding-bottom: 10px;
+    }
+  }
+  .mat-button {
+    border: 5px dashed;
+    border-radius: 0;
+  }
+}
