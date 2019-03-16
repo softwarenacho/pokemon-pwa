@@ -1,21 +1,65 @@
 {
+  "version": "v0.1",
   "name": "Pokemon Master Trainer® PWA",
   "short_name": "pokemon® pwa",
+  "author": "Nacho Betancourt",
   "description": "PWA adaptation of the board game Pokemon Master Trainer® wit a mix on design from the Pokemon Blue aesthethics",
-  "scope": ".",
+  "scope": "/",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
+  "offline_enabled": true,
   "theme_color": "#A2D6D9",
+  "default_locale": "es",
   "background_color": "#FFFDAD",
   "icons": [
     {
-      "src": "/icons/192.png",
+      "src": "icons/16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/512.png",
+      "src": "icons/384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
